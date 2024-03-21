@@ -1,0 +1,433 @@
+{
+  "menu_info": {
+    "currency": "USD",
+    "sections": [
+      "schedule:149a3f70-bac9-11ee-ae7b-2f7f3104a752||category:8a61b572-58ac-4803-8cbf-8b89cc45256f",
+      "schedule:149a3f70-bac9-11ee-ae7b-2f7f3104a752||category:0305ed29-7f66-4f71-a9b1-8d6248f0b1f6",
+      "schedule:8ed4439f-cbec-4ea3-a5d0-3a8a5f776238||category:821b7e9e-c817-4570-93ce-c46b2ab70901"
+    ],
+    "header_media": { "source_url": "" },
+    "logo_media": { "source_url": "" },
+    "search_media": { "source_url": "" }
+  },
+  "tax_rates": [
+    {
+      "external_id": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "name": "Sales Tax",
+      "rate": 0.08,
+      "flat": 0
+    },
+    {
+      "external_id": "57acab89-f7fa-49d6-8aff-e4cde4b12d44",
+      "name": "Alcohol (Inclusive)",
+      "rate": 0.095,
+      "flat": 0
+    }
+  ],
+  "repeating_schedules": [
+    {
+      "external_id": "149a3f70-bac9-11ee-ae7b-2f7f3104a752",
+      "name": "Weekdays",
+      "type": "WEEKLY",
+      "rules": [
+        {
+          "start_time": "00:00:00.000",
+          "end_time": "23:59:00.000",
+          "days_of_week": ["MONDAY"]
+        },
+        {
+          "start_time": "00:00:00.000",
+          "end_time": "23:59:00.000",
+          "days_of_week": ["TUESDAY"]
+        },
+        {
+          "start_time": "00:00:00.000",
+          "end_time": "23:59:00.000",
+          "days_of_week": ["WEDNESDAY"]
+        },
+        {
+          "start_time": "00:00:00.000",
+          "end_time": "23:59:00.000",
+          "days_of_week": ["THURSDAY"]
+        },
+        {
+          "start_time": "00:00:00.000",
+          "end_time": "23:59:00.000",
+          "days_of_week": ["FRIDAY"]
+        }
+      ]
+    },
+    {
+      "external_id": "8ed4439f-cbec-4ea3-a5d0-3a8a5f776238",
+      "name": "Saturday brunch",
+      "type": "WEEKLY",
+      "rules": [
+        {
+          "start_time": "00:00:00.000",
+          "end_time": "23:59:00.000",
+          "days_of_week": ["SATURDAY"]
+        }
+      ]
+    }
+  ],
+  "menu_sections": [
+    {
+      "external_id": "schedule:149a3f70-bac9-11ee-ae7b-2f7f3104a752||category:8a61b572-58ac-4803-8cbf-8b89cc45256f",
+      "name": "Comfort Food",
+      "internal_name": "",
+      "description": "",
+      "items": [
+        "23cfebf4-63f4-46eb-a519-a5492e7b135a",
+        "1d47dee4-b583-4e91-ab7e-9f2a61c28efe",
+        "f39de177-6f2d-4b67-891d-4bb86d035482"
+      ],
+      "availability_ranges": [],
+      "schedule_ids": ["149a3f70-bac9-11ee-ae7b-2f7f3104a752"],
+      "availability_override": "",
+      "media": null,
+      "subsections": [],
+      "tax_category": null
+    },
+    {
+      "external_id": "schedule:149a3f70-bac9-11ee-ae7b-2f7f3104a752||category:0305ed29-7f66-4f71-a9b1-8d6248f0b1f6",
+      "name": "Alcohol",
+      "internal_name": "",
+      "description": "",
+      "items": [
+        "7cfa2723-479a-471e-8753-a1519fd44a89",
+        "d75905d0-ca6d-476a-bccf-3142c97bc3f2",
+        "10ae4374-9560-456f-8170-e96dd700785a"
+      ],
+      "availability_ranges": [],
+      "schedule_ids": ["149a3f70-bac9-11ee-ae7b-2f7f3104a752"],
+      "availability_override": "",
+      "media": null,
+      "subsections": [],
+      "tax_category": null
+    },
+    {
+      "external_id": "schedule:8ed4439f-cbec-4ea3-a5d0-3a8a5f776238||category:821b7e9e-c817-4570-93ce-c46b2ab70901",
+      "name": "Breakfast",
+      "internal_name": "",
+      "description": "Yummy Breakfast",
+      "items": [
+        "cae4a1e5-0cf4-4fda-b588-a70001960b01",
+        "8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+        "42de064f-8e8e-465c-ab2e-60a9000328f3",
+        "48c63c17-83bb-458e-9035-b5668bfa5349"
+      ],
+      "availability_ranges": [],
+      "schedule_ids": ["8ed4439f-cbec-4ea3-a5d0-3a8a5f776238"],
+      "availability_override": "",
+      "media": null,
+      "subsections": [],
+      "tax_category": null
+    }
+  ],
+  "items": [
+    {
+      "external_id": "7cfa2723-479a-471e-8753-a1519fd44a89",
+      "name": "Bombay Sapphire",
+      "description": "",
+      "price": 879,
+      "modifier_prompts": [],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": ["57acab89-f7fa-49d6-8aff-e4cde4b12d44"],
+      "tags": []
+    },
+    {
+      "external_id": "d75905d0-ca6d-476a-bccf-3142c97bc3f2",
+      "name": "Bud Light",
+      "description": "",
+      "price": 472,
+      "modifier_prompts": [],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": ["57acab89-f7fa-49d6-8aff-e4cde4b12d44"],
+      "tags": []
+    },
+    {
+      "external_id": "10ae4374-9560-456f-8170-e96dd700785a",
+      "name": "Cabernet - Bottle",
+      "description": "",
+      "price": 3520,
+      "modifier_prompts": [],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": ["57acab89-f7fa-49d6-8aff-e4cde4b12d44"],
+      "tags": []
+    },
+    {
+      "external_id": "f39de177-6f2d-4b67-891d-4bb86d035482",
+      "name": "Famous Fried Chicken",
+      "description": "",
+      "price": 879,
+      "modifier_prompts": [],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "tags": []
+    },
+    {
+      "external_id": "48c63c17-83bb-458e-9035-b5668bfa5349",
+      "name": "Country Fried Steak Breakfast",
+      "description": "",
+      "price": 1099,
+      "modifier_prompts": [],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "tags": []
+    },
+    {
+      "external_id": "42de064f-8e8e-465c-ab2e-60a9000328f3",
+      "name": "French Toast Bread",
+      "description": "",
+      "price": 659,
+      "modifier_prompts": [],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "tags": []
+    },
+    {
+      "external_id": "1d47dee4-b583-4e91-ab7e-9f2a61c28efe",
+      "name": "Crispy Whitefish Filets",
+      "description": "",
+      "price": 879,
+      "modifier_prompts": [
+        "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:1d47dee4-b583-4e91-ab7e-9f2a61c28efe"
+      ],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "tags": []
+    },
+    {
+      "external_id": "23cfebf4-63f4-46eb-a519-a5492e7b135a",
+      "name": "BBQ Pulled Pork",
+      "description": "",
+      "price": 879,
+      "modifier_prompts": [
+        "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:23cfebf4-63f4-46eb-a519-a5492e7b135a"
+      ],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "tags": []
+    },
+    {
+      "external_id": "cae4a1e5-0cf4-4fda-b588-a70001960b01",
+      "name": "All-Star Breakfast",
+      "description": "",
+      "price": 989,
+      "modifier_prompts": [],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "tags": []
+    },
+    {
+      "external_id": "8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "name": "Pancake Breakfast (4)",
+      "description": "",
+      "price": 659,
+      "modifier_prompts": [
+        "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+        "set:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342"
+      ],
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "tags": []
+    }
+  ],
+  "modifier_prompts": [
+    {
+      "external_id": "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:1d47dee4-b583-4e91-ab7e-9f2a61c28efe",
+      "name": "Add Soup/salad Bar",
+      "modifier_list": "list:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:1d47dee4-b583-4e91-ab7e-9f2a61c28efe",
+      "default_selection_model": {
+        "minimum_quantity": 0,
+        "maximum_quantity": 1
+      }
+    },
+    {
+      "external_id": "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:23cfebf4-63f4-46eb-a519-a5492e7b135a",
+      "name": "Add Soup/salad Bar",
+      "modifier_list": "list:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:23cfebf4-63f4-46eb-a519-a5492e7b135a",
+      "default_selection_model": {
+        "minimum_quantity": 0,
+        "maximum_quantity": 1
+      }
+    },
+    {
+      "external_id": "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "name": "Pancakes Add",
+      "modifier_list": "list:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "default_selection_model": {
+        "minimum_quantity": 0,
+        "maximum_quantity": 4
+      }
+    },
+    {
+      "external_id": "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "name": "Caramel Types",
+      "modifier_list": "list:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "default_selection_model": {
+        "minimum_quantity": 0,
+        "maximum_quantity": 3
+      }
+    },
+    {
+      "external_id": "set:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "name": "Multicolored Caramel Types",
+      "modifier_list": "list:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "default_selection_model": {
+        "minimum_quantity": 0,
+        "maximum_quantity": 2
+      }
+    }
+  ],
+  "modifier_lists": [
+    {
+      "external_id": "list:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:1d47dee4-b583-4e91-ab7e-9f2a61c28efe",
+      "name": "Add Soup/salad Bar",
+      "modifiers": [
+        "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:1d47dee4-b583-4e91-ab7e-9f2a61c28efe||mod:2a953472-47b5-4413-ab22-af4a58f0268c"
+      ]
+    },
+    {
+      "external_id": "list:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:23cfebf4-63f4-46eb-a519-a5492e7b135a",
+      "name": "Add Soup/salad Bar",
+      "modifiers": [
+        "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:23cfebf4-63f4-46eb-a519-a5492e7b135a||mod:2a953472-47b5-4413-ab22-af4a58f0268c"
+      ]
+    },
+    {
+      "external_id": "list:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "name": "Pancakes Add",
+      "modifiers": [
+        "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:eca43100-f29d-4591-be5f-8c6e4e777b9f",
+        "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:37433df3-e54e-4a7f-80f0-5088a40a32c5",
+        "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:9b23b907-6735-4dc3-9f82-e08517fba461"
+      ]
+    },
+    {
+      "external_id": "list:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "name": "Caramel Types",
+      "modifiers": [
+        "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:755bdccf-4b85-4091-8321-44379467388a",
+        "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:c3cc1e42-9e2c-4eda-9fe5-46a94674689f",
+        "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:e534e7d9-1659-492a-a9aa-a1ab05b970ab"
+      ]
+    },
+    {
+      "external_id": "list:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342",
+      "name": "Multicolored Caramel Types",
+      "modifiers": [
+        "set:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:21e0724a-3532-4e24-a36e-2643f2f5c8e0",
+        "set:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:213624d1-1f85-4eb9-acf6-70685458edcf"
+      ]
+    }
+  ],
+  "modifiers": [
+    {
+      "external_id": "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:1d47dee4-b583-4e91-ab7e-9f2a61c28efe||mod:2a953472-47b5-4413-ab22-af4a58f0268c",
+      "name": "1000 Island",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 300,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:37a16d86-24b9-469f-a8e4-f0afbd26ae96||item:23cfebf4-63f4-46eb-a519-a5492e7b135a||mod:2a953472-47b5-4413-ab22-af4a58f0268c",
+      "name": "1000 Island",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 300,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:eca43100-f29d-4591-be5f-8c6e4e777b9f",
+      "name": "Bacon",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 250,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:37433df3-e54e-4a7f-80f0-5088a40a32c5",
+      "name": "Swiss Cheese",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 222,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:b63d1921-4ebb-431e-baf7-00439fb83ce1||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:9b23b907-6735-4dc3-9f82-e08517fba461",
+      "name": "Caramel",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 200,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": [
+        "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342"
+      ]
+    },
+    {
+      "external_id": "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:755bdccf-4b85-4091-8321-44379467388a",
+      "name": "Brown Caramel",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 100,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:c3cc1e42-9e2c-4eda-9fe5-46a94674689f",
+      "name": "White Caramel",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 100,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:d7a5e52a-f7be-430d-98b6-f095b27575af||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:e534e7d9-1659-492a-a9aa-a1ab05b970ab",
+      "name": "Multicolored Caramel",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 100,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:21e0724a-3532-4e24-a36e-2643f2f5c8e0",
+      "name": "Rainbow Caramel",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 260,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    },
+    {
+      "external_id": "set:d344faf7-ccea-4522-99c2-3372dde61a3d||item:8fc97c86-3d52-4df6-9fc0-14ad5768a342||mod:213624d1-1f85-4eb9-acf6-70685458edcf",
+      "name": "Unicorn Caramel",
+      "description": "",
+      "calorie_count": "",
+      "default_price": 260,
+      "tax_rate": "ba02a8aa-b7cb-43ad-9d2e-1587e13154e3",
+      "miscellaneous_taxes": [],
+      "submodifiers": []
+    }
+  ],
+  "sizes": [],
+  "availability_ranges": [],
+  "availability_overrides": [],
+  "size_prompts": []
+}
